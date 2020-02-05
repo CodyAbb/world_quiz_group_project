@@ -4,7 +4,7 @@
     <p><i v-if='this.selectedAnswer === this.correctAnswer.name' class="far fa-thumbs-up fa-2x"></i><i v-if='this.selectedAnswer !== this.correctAnswer.name' class="far fa-thumbs-down fa-2x"></i></p>
     <button v-if="questionCounter < 9" class="btn next" @click="handleNextQuestion" type="button" name="next-question">Next</button>
     <div v-if="questionCounter === 9"> <p>Well done on completing the quiz! Your score is {{this.quizScore}}</p>
-      <a href="http://localhost:8080" class="btn next">Return home</a></div>
+      <a href="https://codyabb.github.io/world_quiz_group_project/" class="btn next">Return home</a></div>
     </div>
   </template>
 

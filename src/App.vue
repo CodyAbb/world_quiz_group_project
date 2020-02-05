@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <a href="http://localhost:8080/">
+    <a href="https://codyabb.github.io/world_quiz_group_project/"
       <h1 class="title">
 
         <span id="W">W</span>
